@@ -6,9 +6,11 @@ import Interest from "./Interest";
 export default function Card() {
   return (
     <div class="card">
+      <div className="content">
       <Header />
       <About />
       <Interest />
+      </div>
       <Footer />
     </div>
   );
