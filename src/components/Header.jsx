@@ -1,7 +1,7 @@
 function Header() {
   return (
     <div className="header">
-        <img src="./src/assets/profilee.jpeg" alt="profile" className="profile" />
+        <img src="./src/assets/profile.jpeg" alt="profile" className="profile" />
         <div className="infos">
             <h2>Jean Pierre Akimana</h2>
             <h4>Software Developer</h4>

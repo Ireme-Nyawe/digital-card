@@ -1,15 +1,10 @@
-import About from "./components/About";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Interest from "./components/Interest";
+
+import Card from "./components/Card";
 
 export default function App() {
   return (
     <>
-      <Header />
-      <About />
-      <Interest />
-      <Footer />
+      <Card/>
     </>
   );
 }

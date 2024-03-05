@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .header .profile{
-  width: 300px;
+  width: 100%;
 }
 .footer{
   display: flex;
@@ -13,8 +13,13 @@
   background: black;
   color: white;
   padding: 20px 20% 20px 20%;
-  position: absolute;
+  position: relative;
   bottom: 0%;
   width: 100%;
 
+}
+.card{
+  width: 500px;
+  background: black;
+  color: white;
 }
